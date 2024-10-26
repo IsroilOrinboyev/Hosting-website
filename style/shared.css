@@ -1,0 +1,565 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-BlackItalic.eot');
+    src: url('../fonts/Rubik-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Rubik-BlackItalic.woff2') format('woff2'),
+        url('../fonts/Rubik-BlackItalic.woff') format('woff'),
+        url('../fonts/Rubik-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Bold.eot');
+    src: url('../fonts/Rubik-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Rubik-Bold.woff2') format('woff2'),
+        url('../fonts/Rubik-Bold.woff') format('woff'),
+        url('../fonts/Rubik-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Black.eot');
+    src: url('../fonts/Rubik-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Rubik-Black.woff2') format('woff2'),
+        url('../fonts/Rubik-Black.woff') format('woff'),
+        url('../fonts/Rubik-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-BoldItalic.eot');
+    src: url('../fonts/Rubik-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Rubik-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Rubik-BoldItalic.woff') format('woff'),
+        url('../fonts/Rubik-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-ExtraBold.eot');
+    src: url('../fonts/Rubik-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Rubik-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Rubik-ExtraBold.woff') format('woff'),
+        url('../fonts/Rubik-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-ExtraBoldItalic.eot');
+    src: url('../fonts/Rubik-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Rubik-ExtraBoldItalic.woff2') format('woff2'),
+        url('../fonts/Rubik-ExtraBoldItalic.woff') format('woff'),
+        url('../fonts/Rubik-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Italic.eot');
+    src: url('../fonts/Rubik-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Rubik-Italic.woff2') format('woff2'),
+        url('../fonts/Rubik-Italic.woff') format('woff'),
+        url('../fonts/Rubik-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Light.eot');
+    src: url('../fonts/Rubik-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Rubik-Light.woff2') format('woff2'),
+        url('../fonts/Rubik-Light.woff') format('woff'),
+        url('../fonts/Rubik-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-LightItalic.eot');
+    src: url('../fonts/Rubik-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Rubik-LightItalic.woff2') format('woff2'),
+        url('../fonts/Rubik-LightItalic.woff') format('woff'),
+        url('../fonts/Rubik-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Medium.eot');
+    src: url('../fonts/Rubik-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Rubik-Medium.woff2') format('woff2'),
+        url('../fonts/Rubik-Medium.woff') format('woff'),
+        url('../fonts/Rubik-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Regular.eot');
+    src: url('../fonts/Rubik-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Rubik-Regular.woff2') format('woff2'),
+        url('../fonts/Rubik-Regular.woff') format('woff'),
+        url('../fonts/Rubik-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-MediumItalic.eot');
+    src: url('../fonts/Rubik-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Rubik-MediumItalic.woff2') format('woff2'),
+        url('../fonts/Rubik-MediumItalic.woff') format('woff'),
+        url('../fonts/Rubik-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-SemiBold.eot');
+    src: url('../fonts/Rubik-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Rubik-SemiBold.woff2') format('woff2'),
+        url('../fonts/Rubik-SemiBold.woff') format('woff'),
+        url('../fonts/Rubik-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-SemiBoldItalic.eot');
+    src: url('../fonts/Rubik-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Rubik-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/Rubik-SemiBoldItalic.woff') format('woff'),
+        url('../fonts/Rubik-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Rubik, sans-serif;
+    margin: 0;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+/* Main navigation */
+.header {
+    z-index: 10;
+    width: 100%;
+    position: fixed;
+    height: 5.3rem;
+    background-color: white;
+    box-shadow: 0px 2px 30px #e1eafc;
+}
+
+.flex-block {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.logo-title {
+    margin: 0;
+}
+
+.logo-title a{
+    font-family: poppins, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+
+.main-navigation__items {
+    margin: 0;
+    display: flex;
+    list-style: none;
+}
+
+.main-navigation__item a {
+    font-family: poppins, sans-serif;
+    text-decoration: none;
+    color: rgb(67, 66, 66);
+    transition: color 0.4s;
+}
+
+.main-navigation__item a:hover {
+    color: #868484;
+}
+
+.main-navigation__item {
+    padding-left: 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.section-padding {
+    padding: 5rem 3rem;
+}
+
+button {
+    cursor: pointer;
+    padding: 1.1rem 2.2rem;
+    border: none;
+    border-radius: 0.4rem;
+    letter-spacing: 1px;
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-shadow: 1px #515151;
+}
+
+
+.subtitle {
+    margin-bottom: 1rem;
+    font-family: 'Rubik', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #ff8f00;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+}
+
+.title {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 2.5rem;
+    font-family: 'Rubik', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 500;
+    font-size: 38px;
+}
+
+.paragraph {
+    margin: 0;
+    font-family: "Rubik", sans-serif;
+    color: #515151;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+}
+
+hr {
+    margin: 3rem 0;
+}
+
+.low-opacity {
+    filter: opacity(0.3);
+}
+
+
+
+
+
+.service-feature__types {
+    padding: 2rem 3rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature-type {
+    margin: 1.5rem 1rem;
+    width: 30%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.feature-type h4{
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.feature-type img {
+    position: relative;
+    top: 1.5rem;
+    right: 1rem;
+    height: 3rem;
+    width: 3rem;
+}
+
+
+
+/*get in touch section css code*/
+
+.get-touch {
+    padding: 18rem 4rem 8rem;
+    text-align: center;
+}
+
+.get-touch__intro {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.get-touch__intro h2{
+    margin: 0;
+    color: white;
+    text-shadow: 0px 0px 30px #747576;
+    padding-bottom: 1rem;
+    font-family: Rubik, sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+.get-touch__form {
+
+    position: relative;
+    width: 60rem;
+    text-align: left;
+    margin-top: 4rem;
+    background-color: white;
+    border: none;
+    border-radius: 2rem;
+    padding: 2rem 2rem 6rem;
+}
+
+.get-touch__form label {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.get-touch__input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.get-touch__form input {
+    background-color: #F8FAFE;
+    width: 45%;
+    padding: 1rem;
+    font-size: 1rem;
+    font-family: "Rubik";
+    border: 1px solid #a3a4a5;
+    border-radius: 5px;
+
+}
+
+.get-touch__form textarea {
+
+    margin-top: 2rem;
+    background-color: #F8FAFE;
+    width: 96.5%;
+    height: 10rem;
+    padding: 1rem;
+    font-size: 1rem;
+    font-family: "Rubik";
+    border: 1px solid #a3a4a5;
+    border-radius: 5px;
+}
+
+.get-touch__button {
+    margin: 2rem 0 0;
+    position: absolute;
+    right: 2rem;
+    bottom: 2rem;
+    color: white;
+    background-color: #2970FA;
+}
+
+
+/*frequently asked questions section of SEVICEs*/
+
+
+.faq {
+    text-align: center;
+    padding: 5rem 3rem;
+}
+
+.faq-body {
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.faq-body__question {
+    margin: 0.5rem 1rem;
+    border-bottom: 1px solid #cccc;
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-body__question {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #666666;
+}
+
+.faq-body__question i {
+    color: #cccc;
+    cursor: pointer;
+}
+
+.faq-button {
+    background-color: #2970FA;
+    color: white;
+    box-shadow: 0 20px 30px #a2bff8;
+}
+
+
+
+
+
+/*pick domain section of services*/
+
+
+.pick-domain {
+    padding: 4rem;
+}
+
+.domain-block {
+    padding: 2rem 0.5rem;
+    text-align: center;
+    border: none;
+    border-radius: 2rem;
+    background-color: white;
+    box-shadow: 0 80px 150px 30px rgb(246, 244, 244);    
+}
+
+.search-domain__input {
+    margin: 0;
+    padding: 0.7rem;
+    width: 30rem;
+    outline: none;
+    border: 1px solid #cccc;
+    border-radius: 3px;
+    font-weight: 400;
+    color: #666666;
+}
+
+.search-domain__button {
+    margin: 0;
+    text-transform: capitalize;
+    padding: 0.7rem;
+    border: 1px solid #cccc;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #666666;
+}
+
+.domain-types {
+    height: 16rem;
+    padding: 5rem 0 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;    
+}
+
+.domain-type {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #787777cc;
+}
+
+.domain-type span{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 991px) {
+    .container {
+        width: 90%;
+    }
+
+    .main-navigation {
+        display: none;
+    }
+
+    .subtitle {
+        font-size: 0.9rem;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+    button {
+        padding: 0.9rem 1.7rem;
+        font-size: 0.8rem;
+    }
+
+    .paragraph {
+        font-size: 0.9rem;
+        line-height: 1.3rem;
+    }
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .container {
+        width: 92%;
+    }
+}
+
+
+

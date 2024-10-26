@@ -1,0 +1,77 @@
+/*css code for main SERVICE page*/
+
+.service-main {
+    padding-bottom: 15rem;
+}
+
+.service-main img{
+    width: 32rem;
+    
+}
+
+.half-text h4 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
+
+.half-text i {
+    position: relative;
+    top: 0.2rem;
+    font-size: 1.5rem;
+    padding-right: 2rem;
+}
+
+
+
+/*features section of SEVICE*/
+
+.service-feature__intro {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+
+/*frequently asked questions section of SEVICE*/
+
+
+.faq {
+    text-align: center;
+    padding: 5rem 3rem;
+}
+
+.faq-body {
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.faq-body__question {
+    margin: 0.5rem 1rem;
+    border-bottom: 1px solid #cccc;
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-body__question {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #666666;
+}
+
+.faq-body__question i {
+    color: #cccc;
+    cursor: pointer;
+}
+
+
+
+.faq-button {
+    background-color: #2970FA;
+    color: white;
+    box-shadow: 0 20px 30px #a2bff8;
+}

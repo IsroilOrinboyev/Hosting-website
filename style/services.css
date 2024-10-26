@@ -1,0 +1,145 @@
+/*Services page css codes*/
+
+.services-features {
+    padding: 3rem;
+    text-align: center;
+}
+
+
+
+
+
+.plan-pricing__services {
+    padding: 12rem 3rem 2rem;
+    text-align: center;
+}
+
+.services-plans {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-plan {
+    padding: 2rem;
+}
+
+.services-plan h5 {
+    color: #263547;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.services-plans__button {
+    color: white;
+    background-color: #263547;
+    box-shadow: 2px 10px 20px #4b525b;
+}
+
+
+
+
+
+/*frequently asked questions section of SEVICEs*/
+
+
+.faq {
+    text-align: center;
+    padding: 5rem 3rem;
+}
+
+.faq-body {
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.faq-body__question {
+    margin: 0.5rem 1rem;
+    border-bottom: 1px solid #cccc;
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-body__question {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #666666;
+}
+
+.faq-body__question i {
+    color: #cccc;
+    cursor: pointer;
+}
+
+.faq-button {
+    background-color: #2970FA;
+    color: white;
+    box-shadow: 0 20px 30px #a2bff8;
+}
+
+
+
+
+
+/*pick domain section of services*/
+
+
+.pick-domain {
+    padding: 4rem;
+}
+
+.domain-block {
+    padding: 2rem 0.5rem;
+    text-align: center;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 0 80px 150px 30px rgb(246, 244, 244);    
+}
+
+.search-domain__input {
+    margin: 0;
+    padding: 0.7rem;
+    width: 30rem;
+    border: 1px solid #cccc;
+    border-radius: 3px;
+    font-weight: 400;
+    color: #666666;
+}
+
+.search-domain__button {
+    margin: 0;
+    text-transform: capitalize;
+    padding: 0.7rem;
+    border: 1px solid #cccc;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #666666;
+}
+
+.domain-types {
+    height: 16rem;
+    padding: 5rem 0 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;    
+}
+
+.domain-type {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #787777cc;
+}
+
+.domain-type span{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+

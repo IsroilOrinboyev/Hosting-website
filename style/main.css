@@ -1,0 +1,744 @@
+.main {
+    position: relative;
+    top: 5.3rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 8rem;
+    padding-bottom: 10vw;
+    margin-top: 0;
+}
+
+.main-page-padding {
+    padding-bottom: 5rem;
+}
+
+.main-banner {
+    background-size: contain;
+    background-image: url(../images/main-section-wave.png), linear-gradient(237deg, #46b3ff 0%, #0752fe 100%) !important;
+    background-position: center bottom 0px;
+    background-repeat: no-repeat;
+}
+
+.half-text {
+    padding-top: 2rem;
+    width: 45%;
+    color: white;
+}
+
+.half-text h1, .talk-expert h2, .free-hosting h2 {
+    margin: 0;
+    text-shadow: 0px 0px 30px #747576;
+    padding-bottom: 1rem;
+    font-family: Rubik, sans-serif;
+    font-weight: 500;
+    font-size: 3.2rem;
+    line-height: 3.5rem;
+}
+
+.half-text p, .talk-expert p, .free-hosting p {
+    text-shadow: 0px 0px 25px #747576;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+    padding-bottom: 1rem;
+}
+
+.half-image img{
+    height: 32rem;
+}
+
+.main-page-button, .talk-expert__button, .free-hosting__button {
+    color: #ffffff;
+    background-color: #263547;
+    box-shadow: 0 20px 50px #263547;
+}
+
+
+
+/*Domains prices section*/
+
+.domains {
+    padding-left: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.domain {
+    padding-right: 5rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #747575;
+}
+
+.domain span{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+
+
+/*Our service section*/
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.title-part {
+    width: 44vw;
+}
+
+.service-button {
+    background-color: #2970FA;
+    color: white;
+    box-shadow: 0 20px 30px #a2bff8;
+}
+
+.service-card {
+    margin: 1rem  3rem;
+    width: 16rem;
+}
+
+.align-up {
+    position: relative;
+    top: -9rem;
+}
+
+.service-card img {
+    padding-left: 2rem;
+}
+
+.orange-line {
+    margin: 1rem;
+    display: inline-block;
+    background-color: #ff8f00;
+    position: relative;
+    width: 70px;
+    height: 2px;
+    
+}
+
+.service-card__text {
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    padding: 0rem 2rem 3rem 1.5rem;
+    border: 0px solid white;
+    border-radius: 2rem;
+    box-shadow: 0 80px 150px 30px rgb(246, 244, 244);
+}
+
+.service-card__text h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.service-card__text a {
+    position: relative;
+    top: 1rem;
+    padding: 1.5rem;
+    font-size: 14px;
+    padding: rem;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: rgb(76, 76, 252);
+}
+
+
+
+
+
+/*Features section*/
+
+.features-intro {
+    display: flex;
+    justify-content: space-around;
+}
+
+.features-intro__half {
+    box-sizing: border-box;
+    width: 45%;
+}
+
+.features-intro__half img {
+    width: 100%;
+}
+
+.feature-data {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature-name {
+    height: 7rem;
+    width: 22rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature-name img {
+    height: 4rem;
+    padding-right: 1rem;
+}
+
+
+
+
+/*Pricing section*/
+
+.second-banner {
+    background-size: contain;
+    background-image: url(../images/main-section-wave.png), linear-gradient(to bottom, #ffffff 20%, #d5e1fd 100%);
+    background-position: center bottom 0px;
+    background-repeat: no-repeat;
+    padding-bottom: 7rem;
+}
+
+.pricing-intro {
+    text-align: center;
+}
+
+.pricing-data {
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pricing-plan__card {
+    background-color: white;
+    border-radius: 2rem;
+    box-shadow: 0 80px 150px 30px rgb(246, 244, 244);
+    padding: 0rem 3rem 2rem 2rem;
+}
+
+.plan-name {
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 2rem;
+}
+
+.shared-name {
+    color: #ff8f00;
+}
+
+.pro-name {
+    color: #2970fa;
+}
+
+.private-name {
+    color: #45cf8d;
+}
+
+sup, sub {
+    color: #747575;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.pricing-fee {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.pricing-plan__card ul {
+    list-style: none;
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 3rem;
+    margin: 0;
+    color: #686868;
+}
+
+.shared-bullet li::before {
+    content: "\2022";
+    color: #ff8f00;
+    font-weight: bold;
+    display: inline-block;
+    width: 1rem;
+    margin-left: -2rem;
+}
+
+.pro-bullet li::before {
+    content: "\2022";
+    color:#2970fa;
+    font-weight: bold;
+    display: inline-block;
+    width: 1rem;
+    margin-left: -2rem;
+}
+
+.private-bullet li::before {
+    content: "\2022";
+    color:#45cf8d;
+    font-weight: bold;
+    display: inline-block;
+    width: 1rem;
+    margin-left: -2rem;
+}
+
+.shared-button {
+    padding: 1rem 1.5rem;
+    color:#ff8f00;
+    background-color: rgb(252, 239, 217);
+    margin-left: 2.6rem;
+}
+
+.pro-button {
+    padding: 1rem 1.5rem;
+    color:white;
+    background-color:#2970fa;
+    margin-left: 2.6rem;
+}
+
+.private-button {
+    padding: 1rem 1.5rem;
+    color: #45cf8d;
+    background-color:#dff7eb;
+    margin-left: 2.6rem;
+}
+
+
+
+
+
+/*File management section*/
+
+
+.file-management {
+    display: flex;
+    justify-content: space-around;
+}
+
+.file-management__half {
+    width: 46%;
+}
+
+.file-management__data, .file-management__intro {
+    margin: 0;
+    padding: 0;
+}
+
+.file-management__data h4{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.file-management__data {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.file-management__data img {
+    position: relative;
+    top: 1.5rem;
+    right: 1rem;
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.file-image {
+    width: 100%;
+}
+
+.file-info-button {
+    margin-top: 3rem;
+    color: white;
+    background-color: #2970fa;
+    box-shadow: 0 20px 30px #abc1f0;
+}
+
+
+
+
+/*Talk to experts section*/
+
+.third-banner {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top;
+    background-image: url(../images/third-banner.png);
+    background-color: #FFCC67;
+    box-sizing: border-box;
+}
+
+.third-five__banner {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top;
+    background-image: url(../images/third-five__banner.svg);
+    background-color: #ffcc67;
+    bottom: 0;
+    height: 9rem;
+    z-index: 1;
+    transform: scale(1, 1);
+}
+
+.talk-expert {
+    padding-top: 13rem;
+    padding-bottom: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.talk-expert__div {
+    z-index: 2;
+    text-align: center;
+    width: 60%;
+}
+
+
+
+
+
+/*Easy setup section*/
+
+
+.setup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.setup-half {
+    width: 47%;
+}
+
+.setup-half img {
+    width: 100%;
+}
+
+.setup p {
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+
+.setup-half h4{
+    color: #263547;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+}
+
+.setup-half i {
+    font-size: 1.5rem;
+    color: #ff8f00;
+    padding: 0 2rem 0 0;
+}
+
+.setup-button {
+    margin: 1rem 0;
+    color: white;
+    background-color: #0752fa;
+    box-shadow: 0 20px 30px #abc1f0;
+}
+
+
+
+
+
+
+/*Our testimonials section style*/
+
+.testimonial-intro {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.testimonial-data {
+    display: flex;
+    justify-content: space-around;
+}
+
+.testimonial-card {
+    margin: 2rem;
+    width: 25%;
+    box-shadow: 0 80px 150px 30px rgb(246, 244, 244);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-image: url(../images/testimonial-card-background.png);
+    padding: 1.5rem 1.5rem 1rem 1.5rem;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.testimonial-card img {
+    width: 5.5rem;
+    border-radius: 50%;
+    box-shadow: 0 10px 30px 5px #d8d8d9;
+}
+
+.testimonial-card p {
+    padding-top: 2rem;
+    line-height: 1.5rem;
+}
+
+.testimonial-card h4 {
+    padding-top: 3rem;
+    margin: 0;
+    color: #686868;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.testimonial-card h5 {
+    color: #686868;
+    margin: 0;
+    line-height: 2rem;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+
+
+
+/*Satisfaction guaranteed section*/
+
+.satisfaction h2{
+    text-align: center;
+}
+
+.satisfaction-data {
+    color: white;
+    padding: 4rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.satisfaction-card {
+    width: 42%;
+    padding: 1rem 2rem 2rem 2rem;
+    border-radius: 2rem;
+    box-shadow: 0 80px 150px 30px rgb(246, 244, 244);
+}
+
+.satisfaction-card h3 {
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.satisfaction-card p {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    font-weight: 300;
+}
+
+.satisfaction-button {
+    color: white;
+    background-color: #263547;
+}
+
+.support-card {
+    background-image: url(../images/support-card.png), linear-gradient(to right, #0C5AFE 0%, #43AEFF 100%);
+    background-repeat: no-repeat;  
+    background-position: bottom right;
+    background-size: contain;
+}
+
+.money-card {
+    background-image: url(../images/money-back-card.png), linear-gradient(to right,#FFBC62 0%, #FFBC62 100%);
+    background-repeat: no-repeat;  
+    background-position: bottom right;
+    background-size: contain;
+}
+
+
+
+
+/*30 days free hosting*/
+
+
+.fourth-banner {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top;
+    background-image: url(../images/last-part-wave.png), linear-gradient(237deg, #46b3ff 0%, #0752fe 100%);
+}
+
+.free-hosting {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.free-hosting__data {
+    padding: 12rem 0 4rem;
+    color: white;
+    width: 60%;
+}
+
+
+
+
+
+/*Footer section */
+
+.footer {
+    margin: 0;
+    padding: 1rem 5rem;
+    color:#747575;
+    background-color: #131a24;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-data {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.footer-data a {
+    font-weight: bold;
+    color: #747575;
+    text-decoration: none;
+}
+
+.footer-data a:hover {
+    transition: 0.4s;
+    color:#263547;
+}
+
+.footer-social i {
+    font-size: 1.7rem;
+    padding: 0 0.7rem;
+    transition: color 0.5s;
+}
+
+.footer-social i:hover {
+    color: #0752fa;
+}
+
+
+@media only screen and (max-width: 991px) {
+    .main {
+        flex-direction: column;
+    }
+    .half-text {
+        width: 80%;
+        align-self: center;
+    }
+
+    .half-image img {
+        height: 40rem;
+    }
+
+    .domains {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .domain {
+        width: 30%;
+    }
+
+    .services {
+        flex-direction: column;
+        padding: 4rem;
+    }
+
+    .title-part {
+        width: 90%;
+    }
+
+    .service-card {
+        width: 90%;
+        padding-top: 3rem;
+    }
+
+    .align-up {
+        top: 0;
+    }
+
+
+    .features-intro {
+        flex-wrap: wrap;
+    }
+
+    .features-intro__half {
+        width: 90%;
+    }
+
+    .feature-data {
+        flex-direction: column;
+    }
+
+    .feature-name {
+        width: 80%;
+    }
+
+    .pricing-data {
+        flex-wrap: wrap;
+    }
+
+    .pricing-plan__card {
+        width: 80%;
+        margin: 2rem 0;
+    }
+
+    .file-management {
+        flex-direction: column;
+    }
+
+    .file-management__half {
+        width: 80%;
+    }
+
+    .talk-expert__div {
+        width: 80%;
+    }
+
+    .talk-expert__div h2 {
+        font-size: 2.5rem;
+    }
+
+
+    .setup {
+        flex-direction: column;
+    }
+
+    .setup-half {
+        width: 80%;
+    }
+
+    .testimonial-data {
+        flex-direction: column;
+    }
+
+    .testimonial-card {
+        width: 90%;
+    }
+
+    .satisfaction-data {
+        flex-direction: column;
+    }
+
+    .satisfaction-card {
+        width: 80%;
+        margin: 2rem 0;
+    }
+
+    .free-hosting__data {
+        width: 80%;
+    }
+
+    .footer {
+        flex-direction: column-reverse;
+    }
+
+    .footer-data {
+        padding: 0.5rem 0;
+    }
+
+    .footer-social {
+        padding: 0.5rem 0;
+    }
+}

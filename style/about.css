@@ -1,0 +1,144 @@
+.main {
+    position: relative;
+    top: 5.3rem;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 8rem;
+    padding-bottom: 10vw;
+    margin-top: 0;
+}
+
+.main-page-padding {
+    padding-bottom: 5rem;
+}
+
+.main-banner {
+    background-size: contain;
+    background-image: url(../images/main-section-wave.png), linear-gradient(237deg,#315770 0%,#000000 100%) !important;
+    background-position: center bottom 0px;
+    background-repeat: no-repeat;
+}
+
+.about-half__text h1{
+    color: white;
+    text-shadow: 0px 0px 30px #747576;
+    font-family: Rubik, sans-serif;
+    font-weight: 500;
+    font-size: 3.5rem;
+}
+
+.about-main__button {
+    color: white;
+    background-color: #2970fa;
+    margin-right: 2rem;
+}
+
+.video-half iframe{
+    border: none;
+    border-radius: 2rem;
+}
+
+
+
+
+.testimonial-carousel {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial-home__card {
+    overflow: hidden;
+    height: 20rem;
+    width: 80%;
+    background-color: white;
+    border-radius: 2rem;
+    box-shadow: 0 40px 150px 30px rgb(246, 244, 244);
+    padding: 5rem 8rem 7rem;
+}
+
+.testimonial-home__card h3 {
+    line-height: 3.5rem;
+    color: #2970fa;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.testimonial-home__card p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #a6a5a5;
+}
+
+
+
+
+
+
+
+.features-paragraph {
+    padding: 8rem 3rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.half-side__paragraph {
+    width: 48%;
+}
+
+.half-side__paragraph p {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+
+
+
+
+.vision-card p{
+    line-height: 2rem;
+}
+
+
+
+
+
+
+
+.team-intro {
+    text-align: center;
+    padding: 3rem 0 2rem;
+}
+
+.team-people {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 6rem;
+}
+
+.team-person__card {
+    text-align: center;
+}
+
+.team-person__card img {
+    width: 14rem;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 2px 20px 40px #d1d1d1;
+}
+
+.team-person__name {
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #313131;
+}
+
+.team-person__position {
+    color: #9698a1;
+    font-style: "Rubik";
+    font-size: 0.9rem;
+    font-weight: 400;
+}

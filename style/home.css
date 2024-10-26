@@ -1,0 +1,47 @@
+.home-main {
+    padding-bottom: 12rem;
+}
+
+.video-observation {
+    text-align: center;
+}
+
+.video-half {
+    border-radius: 3rem;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+.testimonial-carousel {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial-home__card {
+    overflow: hidden;
+    height: 20rem;
+    width: 80%;
+    background-color: white;
+    border-radius: 2rem;
+    box-shadow: 0 40px 150px 30px rgb(246, 244, 244);
+    padding: 5rem 8rem 7rem;
+}
+
+.testimonial-home__card h3 {
+    line-height: 3.5rem;
+    color: #2970fa;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.testimonial-home__card p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #a6a5a5;
+}

@@ -1,0 +1,154 @@
+.main {
+    position: relative;
+    top: 5.3rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 8rem;
+    padding-bottom: 10vw;
+    margin-top: 0;
+}
+
+.main-page-padding {
+    padding-bottom: 5rem;
+}
+
+.main-banner {
+    background-size: contain;
+    background-image: url(../images/main-section-wave.png), linear-gradient(150deg, #ffba61 0%, #ffe970 100%) !important;
+    background-position: center bottom 0px;
+    background-repeat: no-repeat;
+}
+
+.half-text {
+    padding-top: 2rem;
+    max-width: 45%;
+    color: white;
+}
+
+
+
+
+
+
+
+
+.pricing-plan__card {
+    z-index: 1;
+    padding: 0.5rem 1rem 2rem 1rem;
+    box-shadow: 2px 10px 80px rgb(244, 244, 244);
+}
+
+.deluxe-button {
+    color: white;
+    background-color: #FD8E00;
+    padding: 1rem 1.5rem;
+    margin-left: 2.6rem;
+}
+
+
+.pro-background {
+    color: white;
+    background-color: #2970fa;
+}
+
+.have-questions {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 2rem 10rem 0;
+}
+
+.have-questions h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #263547;
+}
+
+.have-questions__button {
+    color: white; 
+    background-color: #263547;
+    align-self: center;
+}
+
+
+
+.services-features h2,h3 {
+    text-align: center;
+}
+
+
+
+
+
+
+.third-banner {
+    background-size: contain;
+    background-position: center top;
+    background-image: url(../images/third-banner.png), linear-gradient(237deg, #000a0c 0%, #0752fe 100%);
+}
+
+.third-five__banner {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top;
+    background-image: url(../images/third-five__banner.svg), linear-gradient(237deg, #0b3487 0%, #064ffa 100%);
+    background-color: #ffcc67;
+    bottom: 0;
+    height: 9rem;
+    z-index: 1;
+    transform: scale(1, 1);
+}
+
+.choose-business {
+    padding: 14rem 3rem 3rem;
+    color: white;
+}
+
+.choose-business__benefits {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.choose-business__benefits > div {
+    padding: 4rem 0;
+}
+
+.choose-business__intro {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.choose-business__intro h2 {
+    color: white;
+    margin: 0;
+    text-shadow: 0px 0px 30px #7f8081;
+    padding-bottom: 1rem;
+    font-family: Rubik, sans-serif;
+    font-weight: 500;
+    font-size: 3.2rem;
+    line-height: 3.5rem;
+}
+
+.choose-business__intro p {
+    color: white;
+    text-shadow: 0px 0px 25px #7b7b7b;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+    padding: 1rem 12rem 1rem;
+}
+
+.subtitle-pricing__color {
+    color: #6881BB;
+    text-align: left;
+}
+
+.pricing-paragraph__color {
+    color: white; 
+}
+
+.control-types {
+    padding: 1rem 0;
+}
